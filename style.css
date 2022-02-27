@@ -1,3 +1,6 @@
+body {
+    background-color: #F8F8F8;
+}
 .jumbotron {
 padding: 0px;
 }
@@ -7,6 +10,37 @@ padding: 0px;
 .greenButton {
     background-color: #1acb98;
 }
+.whiteButton {
+    background-color: white;
+}
 .sections {
     margin-top: 70px;
+}
+.clampHeading {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.clampCreator {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+.card-title {
+    font-size: 1rem;
+}
+.bi-star-fill, .bi-star-half, .bi-star {
+    color: #FFB764;
+}
+.bi-bar-chart-fill {
+    color: #7550fe;
+}
+.card:hover {
+    box-shadow: 0 0  10px rgba(33,33,33,.2); 
+}
+.creatorAvatar {
+    border-radius: 50%;
+    height: 2rem;
 }
